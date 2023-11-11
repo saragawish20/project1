@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #46909078;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.print-box {
+    width: 600px;
+    padding: 20px 15px;
+    border: .5px solid #6666;
+    background-color: #ffffff;
+    
+
+}
+input,
+button{
+width: 80%;
+height: 40px;
+padding: 5px;
+margin-bottom:5px ;
+font-family: 'Montserrat', sans-serif;
+}
+button{
+    color: #000;
+    background-color: #46909078;
+    border-radius: 30px ;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+button:hover{
+    opacity: 1;
+}
